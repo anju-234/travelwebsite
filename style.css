@@ -1,0 +1,78 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+.prime{
+    padding-top: 20px;
+    color: gray;
+    
+}
+.guide{
+    margin-left: 150px;
+}
+.section-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.article {
+    margin-bottom: 2rem;
+}
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+.site{
+    position: absolute;
+    top: 460px;
+    
+}
+.matt{
+    position: absolute;
+    top: 600px;
+    left: 410px;
+}
+.drink{
+    position: absolute;
+    top: 700px;
+    left:360px
+}
+.site:hover{
+    transform: scale(1.08); 
+    transition: transform 0.3s ease-in-out;
+}
+.title{
+    text-decoration: none;
+    color: black;
+}
+.ent:hover{
+    transform: scale(1.1);
+   
+}
+.place:hover{
+    transform: scale(1.1);
+}
+.more:hover{
+    color: lightskyblue;
+}
+.footer {
+    background-color: #222;
+    color: #ccc;
+   
+}
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    color: skyblue;
+}
+
+@media screen and (max-width: 600px) {
+    .guide{
+        margin-left: 1px;
+    } 
+}
